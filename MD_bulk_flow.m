@@ -1,4 +1,5 @@
 %------------pure-pressure - bulk------------
+% this code takes input from MD ion distribution and that info to employ it in a FDM to generate continuum flow distribution 
 clear all
 load('monomer_volume_fraction_gd05_f1_70_82_ns')  % gd0.05 dp1
 % load('monomer_volume_fraction_gd05_f2_55_67_ns')  % gd0.05 dp2
