@@ -1,6 +1,7 @@
+%_______________this code count the number of water and PE in the solvation shell of an ion. ___________
 clear all
 tic
-n = 100;
+n = 100; %number of snapshot
 FHS=3.2; %cutoff
 %% read simulation data
 fid = fopen('coords_nvt_n9.dump','r');
